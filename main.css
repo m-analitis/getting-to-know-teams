@@ -7,18 +7,35 @@ body {
 }
 
 header {
-    background-image: url(blurredchicago.png);
+    background-image: url(chicago.png);
     background-size: cover;
-    background-position: center;
+    background-position: center 100%;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    height: 600px;
-    width: 100%;
+    padding: 0;
+    text-align: left;
+    height: 2000px;
+}
+
+.overlay-image {
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    height: auto;
 }
 
 h1 {
-    margin: 0;
+    position: relative;
+    padding: 1rem 1.5rem;
+    margin-top: auto;
+    letter-spacing: -3px;
+    line-height: 0.8;
+    font-weight: 500;
+    font-size: 40px;
+    gap: 0px;
 }
 
 h2 {
