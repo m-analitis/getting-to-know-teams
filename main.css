@@ -7,13 +7,13 @@ body {
 }
 
 header {
-    background-image: url(chicago.png);
+    background-image: url(blurchicago.png);
     background-size: cover;
     background-position: center 100%;
     color: #fff;
     padding: 0;
     text-align: left;
-    height: 2000px;
+    height: 700px;
 }
 
 .overlay-image {
