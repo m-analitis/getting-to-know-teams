@@ -65,6 +65,7 @@ h1 {
 /* team heading */
 .members-heading {
     color: #fff;
+    margin-top: 5rem;
 }
 
 .members-heading h2 {
@@ -108,7 +109,6 @@ h1 {
     border-radius: 50px;
     backdrop-filter: blur(2px);
     transition: all 0.3s ease;
-    margin-bottom: 100px;
 }
 
 .member-names a:hover {
